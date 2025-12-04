@@ -24,7 +24,17 @@ ORDER BY
 LIMIT 10)
 
 SELECT
-job_title, skills, type
-FROM top_paying_job
-JOIN skills_job_dim ON top_paying_job.job_id = skills_job_dim.job_id
-JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id;
+    skills,
+    type,
+    COUNT(skills) AS num_jobs_req_skills
+FROM 
+    top_paying_job
+    JOIN 
+        skills_job_dim ON top_paying_job.job_id = skills_job_dim.job_id
+    JOIN 
+        skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+GROUP BY 
+    skills, type
+ORDER BY 
+    COUNT(skills) DESC
+;
