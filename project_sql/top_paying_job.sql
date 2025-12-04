@@ -5,10 +5,11 @@ Question: What are the top-paying data analyst job posted in AI-jobs.net located
 
 SELECT 
     job_title, 
-    company_dim.name AS company_name, 
+    TO_CHAR(salary_year_avg, '$999,999,999') AS salary_year_avg,
+    job_posted_date::DATE AS job_posted_date,
+    company_dim.name AS company_name,  
     job_location, 
-    job_country, 
-    salary_year_avg
+    job_country
 FROM
     job_postings_fact
 LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id 
