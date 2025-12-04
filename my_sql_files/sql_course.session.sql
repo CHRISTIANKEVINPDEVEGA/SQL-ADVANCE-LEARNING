@@ -12,3 +12,8 @@ SELECT
     job_posted_date::DATE
 FROM
     job_postings_fact;
+
+SELECT 
+    job_posted_date::DATE
+FROM
+    job_postings_fact;
