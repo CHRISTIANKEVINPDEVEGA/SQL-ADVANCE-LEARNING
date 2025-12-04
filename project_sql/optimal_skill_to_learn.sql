@@ -36,6 +36,8 @@ ORDER BY avg_pay_skill DESC
 )
 
 SELECT 
-highest_paying_skill.skills, highest_paying_skill.type, demand_counts, avg_pay_skill, (demand_counts * avg_pay_skill) AS optimal_val
+highest_paying_skill.skills, highest_paying_skill.type, demand_counts, avg_pay_skill
 FROM in_demand_skill
 JOIN highest_paying_skill ON highest_paying_skill.skill_id = in_demand_skill.skill_id
+ORDER BY (demand_counts * avg_pay_skill) DESC
+;
