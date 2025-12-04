@@ -11,6 +11,8 @@ WHERE
     job_title_short = 'Data Analyst'
     AND EXTRACT(YEAR FROM job_posted_date) = 2023
     AND salary_year_avg IS NOT NULL
+    AND job_work_from_home =TRUE
+
 ),
 
 in_demand_skill AS (
@@ -36,8 +38,9 @@ ORDER BY avg_pay_skill DESC
 )
 
 SELECT 
-highest_paying_skill.skills, highest_paying_skill.type, demand_counts, avg_pay_skill
+highest_paying_skill.skills, highest_paying_skill.type
 FROM in_demand_skill
 JOIN highest_paying_skill ON highest_paying_skill.skill_id = in_demand_skill.skill_id
 ORDER BY (demand_counts * avg_pay_skill) DESC
+LIMIT 10
 ;
