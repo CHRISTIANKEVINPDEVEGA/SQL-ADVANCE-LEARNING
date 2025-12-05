@@ -58,9 +58,21 @@ ORDER BY
 LIMIT 10;
 ```
 **Output:**
-![alt text](asset\image.png)
+![alt text](asset/image.png)
 
 This establishes the benchmark for top-tier salaries and highlights which companies and job positions offer the most competitive compensation in the country.
+
+
+
+- Contains data analyst job postings in the Philippines, mostly in Metro Manila (Makati, Manila, Taguig) with a few in other cities like Tarlac.
+
+- Salaries range from $100,500 to $111,175/year.
+
+- Job titles vary slightly (e.g., “Senior Data Analyst - AI COE”, “Data Analyst (Procurement/Logistics)”) but most are simply “Data Analyst”.
+
+- Companies include a mix of local banks, tech companies, and global firms with Philippine offices (e.g., Security Bank, Canva, Angkas).
+
+- Useful for understanding local salary levels, popular roles, and active employers.
 
 #### 2. What are the skills of the top-paying data analyst job posted in AI-jobs.net located in the Philippines in 2023?
 
@@ -105,9 +117,19 @@ ORDER BY
 ;
 ```
 **Output:**
-![alt text](asset\image1.png)
+![alt text](asset/image1.png)
 
 This step shows the specific tools and programming languages that consistently appear among the highest-paying positions, giving insight into what skills employers consider essential at the top salary level.
+
+- Lists which skills are required across a sample of Philippine job postings.
+
+- Most requested: SQL (7 jobs), followed by Python and R (5 jobs each).
+
+- Analyst tools like Tableau (4), Excel (3), PowerPoint (2), Power BI (2) also appear.
+
+- Less common skills (e.g., Jira, Zoom, Flow) appear in only 1 job each.
+
+- Gives insight into what skills recruiters prioritize locally.
 
 #### 3. What are the top in demand skills for data analyst in 2023?
 
@@ -137,9 +159,15 @@ ORDER BY
 LIMIT 10;
 ```
 **Output:**
-![alt text](asset\image2.png)
+![alt text](asset/image2.png)
 
 This ranking highlights the foundational skills every aspiring Data Analyst should prioritize.
+
+- Shows how many global job postings mention each skill.
+
+- Most in-demand globally: SQL (92,439 postings), Excel (66,867), Python (57,189), Tableau (46,459), Power BI (39,381).
+
+- Highlights which skills are widely requested worldwide, giving a benchmark for local skill relevance.
 
 #### 4. What are the top paying skills for data analyst in 2023?
 
@@ -170,9 +198,17 @@ LIMIT 10
 ;
 ```
 **Output:**
-![alt text](asset\image3.png)
+![alt text](asset/image3.png)
 
 This reveals which specialized or advanced skills provide the strongest salary advantage.
+
+- Provides average global salaries for jobs requiring each skill.
+
+- Highest-paying skills include SVN ($400,000), Solidity ($179,000), and Couchbase ($160,515).
+
+- Analyst and cloud tools generally range $138k–$155k.
+
+- Useful to identify high-value skills and niche specializations in the global market.
 
 #### 5. What is the most optimal skills to learn? Both highest paying and in demand skill.
 
@@ -228,9 +264,21 @@ LIMIT 10
 ;
 ```
 **Output:**
-![alt text](asset\image4.png)
+![alt text](asset/image4.png)
 
 This step highlights the skills that offer the best balance of competitiveness and earning potential.
+
+- Combines global skill demand and average pay into one table.
+
+- Examples:
+
+    - **SQL**: 398 jobs, $97,237 average pay → top skill to learn due to high demand × pay.
+
+    - **Python**: 236 jobs, $101,397 average pay
+
+    - **Tableau and Excel** → slightly lower demand but still strong in both metrics.
+
+- Helps compare which skills are both in demand and well-paid, useful for strategic skill development.
 
 # What I learned
 
