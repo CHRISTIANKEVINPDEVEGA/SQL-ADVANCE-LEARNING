@@ -21,4 +21,5 @@ JOIN skills_job_dim ON skills_job_dim.job_id = data_analyst_job.job_id
 JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 GROUP BY skills, type
 ORDER BY avg_pay_skill DESC
+LIMIT 10
 ;
