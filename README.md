@@ -58,6 +58,7 @@ ORDER BY
 LIMIT 10;
 ```
 **Output:**
+
 ![alt text](asset/image.png)
 
 This establishes the benchmark for top-tier salaries and highlights which companies and job positions offer the most competitive compensation in the country.
@@ -117,6 +118,7 @@ ORDER BY
 ;
 ```
 **Output:**
+
 ![alt text](asset/image1.png)
 
 This step shows the specific tools and programming languages that consistently appear among the highest-paying positions, giving insight into what skills employers consider essential at the top salary level.
@@ -159,6 +161,7 @@ ORDER BY
 LIMIT 10;
 ```
 **Output:**
+
 ![alt text](asset/image2.png)
 
 This ranking highlights the foundational skills every aspiring Data Analyst should prioritize.
@@ -198,6 +201,7 @@ LIMIT 10
 ;
 ```
 **Output:**
+
 ![alt text](asset/image3.png)
 
 This reveals which specialized or advanced skills provide the strongest salary advantage.
@@ -264,6 +268,7 @@ LIMIT 10
 ;
 ```
 **Output:**
+
 ![alt text](asset/image4.png)
 
 This step highlights the skills that offer the best balance of competitiveness and earning potential.
